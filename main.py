@@ -168,7 +168,10 @@ def buildMatrix(filename="points1.csv"):
 
 
 if __name__ == "__main__":
-    # 
+    '''
+    Based on user argument provided when running the file set to points or matrix mode
+    if neither parameter is passed print error message with usage instructions
+    '''
     points_plot = None
     matrix_plot = None
     try:
