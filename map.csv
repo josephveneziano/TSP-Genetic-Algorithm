@@ -1,0 +1,9 @@
+,Brighton,Bristol,Cambridge,Glasgow,Liverpool,London,Manchester,Oxford
+Brighton ,0,172,145,607,329,72,312,120
+Bristol,172,0,192,494,209,158,216,92
+Cambridge,145,192,0,490,237,75,205,100
+Glasgow,607,494,490,0,286,545,296,489
+Liverpool,329,209,237,286,0,421,49,208
+London,72,158,75,545,421,0,249,75
+Manchester,312,216,205,296,49,249,0,194
+Oxford,120,92,100,489,208,75,194,0
