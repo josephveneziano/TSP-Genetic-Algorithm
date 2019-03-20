@@ -1,5 +1,5 @@
 # TSP-Genetic-Algorithm
-Traveling Salesman Problem solved used genetic algorithm
+Traveling Salesman Problem solved used genetic algorithm written using python 3
 
 
 ## Usage
