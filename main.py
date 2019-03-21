@@ -84,6 +84,7 @@ def fitness(gen):
             bestdist = tot
             best = gen[index].copy()
             j = index
+    # Update the fitness as a probability
     for x in range(len(fit)):
         fit[x] /= total_fit
     return fit, dist
@@ -146,7 +147,7 @@ def calcdist(a,b):
 Reads points from a file and builds adjacency matrix given the points coordinates
 assumes all points are connected to one another but not themselves
 '''
-def buildMatrix(filename="points1.csv"):
+def buildMatrix(filename="points.csv"):
     points = []
     with open(filename) as file:
         csv_reader = csv.reader(file, delimiter=",")
@@ -189,7 +190,7 @@ if __name__ == "__main__":
         exit()
     
     # Set initial values 
-    iterations = 2000
+    iterations = 1000
     cur = 0
     prevdist = float("inf")
    
